@@ -2,4 +2,6 @@ import sqlite3
 
 con = sqlite3.connect('ejemplo.db')
 cursor = con.cursor()
-print("Conexion correcta")
+
+if con is True:
+    print("Conexion correcta")
