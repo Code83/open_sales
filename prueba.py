@@ -17,4 +17,4 @@ for letra in lista:
 for letra in reversed(lista):
     print(letra)
 
-    
+print("validando los cambios en github")    
